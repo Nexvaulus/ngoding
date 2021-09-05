@@ -1,0 +1,32 @@
+body {
+	display: inline-block;
+}
+
+h1 {
+	color: ;
+	font-variant: 
+}
+
+body {
+	color: white;
+	background-color: rgb(12, 12, 12);
+	}
+
+a {
+	color: lightskyblue;	
+}
+
+div {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+table {
+	font-size: 20px;
+	padding: 30px;
+	border-top: 3px rgb(26, 25, 25) solid;
+	border-right: 1px rgb(26, 25, 25) solid;
+	border-bottom: 3px rgb(26, 25, 25) solid;
+	border-left: 8px rgb(26, 25, 25) solid;
+	background-color: rgb(41, 40, 40);
+}

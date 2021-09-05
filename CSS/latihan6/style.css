@@ -1,0 +1,27 @@
+div {
+	margin: auto;
+}
+
+
+
+
+.satu {
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+
+.dua {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+}
+
+.tiga {
+	width: 50px;
+	height: 50px;
+	background-color: violet;
+}
