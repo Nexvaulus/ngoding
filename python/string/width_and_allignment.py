@@ -42,3 +42,7 @@ nomor sepatu = {data_nomor_sepatu}
 data_string = f"nama = {data_nama}, \numur = {data_umur}, \ntinggi = {data_tinggi}, \nnomor sepatu = {data_nomor_sepatu}"
 print("\n"+5*"="+"data string"+5*"=")
 
+"""
+Halo apa kabar >
+Siapa nama mu
+"""
