@@ -3,7 +3,7 @@
 # data
 
 data_nama = "Ucup Surucup"
-data_umur : 17
+data_umur : 15
 data_tinggi : 150.1
 data_nomor_sepatu : 44
 
