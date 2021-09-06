@@ -17,3 +17,5 @@ umur_tahun = umur_hari.days // 365
 print(umur_tahun)
 print(f"Umur anda adalah : {umur_hari.days} hari {umur_tahun} tahun")
 
+
+
