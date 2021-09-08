@@ -11,7 +11,9 @@ angka_2 = float(input("Masukkan angka 2 = "))
 
 # percabangan
 
-if operator == "+":
+if operator == "=":
+    print(angka_1, angka_2)
+elif operator == "+":
     hasil = angka_1 + angka_2
     print(f"hasilnya adalah {hasil}")
 elif operator == "-":
