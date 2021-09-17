@@ -15,3 +15,5 @@ while angka < 5:
     print("Ini adalah izanami")
 
 print("Akhir dari program")
+
+
