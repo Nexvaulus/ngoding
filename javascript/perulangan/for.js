@@ -12,7 +12,6 @@ while(angkot <= angkotberoperasi) {
     angkot++;
 }
 
-for(angkot; angkot <= jumlahangkot;) {
+for(angkot; angkot <= jumlahangkot; angkot++) {
     console.log("Angkot no. " + angkot + " tidak dapat beroperasi.");
-    angkot++;
 }
