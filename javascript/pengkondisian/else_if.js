@@ -37,3 +37,4 @@ for (angkot; angkot <= jumlahangkot; angkot++) {
 		console.log('angkot no. ' + angkot + ' tidak dapat beroperasi.');
 	}
 }
+
