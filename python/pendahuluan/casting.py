@@ -75,3 +75,8 @@ print("data: ", udin, "type: ", type(udin))
 # bagaimana dengan boolean
 mamat = bool(int(input("Masukan nilai boolean : ")))
 print("data: ", mamat, "type: ", type(mamat))
+
+
+# kita bisa mengcompile python ke yang namanya bytecode
+# cara mengcompile file, buka terminal dan ketik
+# python -m py_compile main.py
