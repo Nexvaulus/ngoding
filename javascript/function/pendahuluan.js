@@ -13,8 +13,6 @@
 // console.log(kubus);
 // alert("Panjang sisi kubus 1 adalah " + x + "\nPanjang sisi kubus 2 adalah " + y + "\nMaka hasilnya adalah " + kubus);
 
-
-
 function angkaRandom(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
