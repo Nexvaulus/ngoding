@@ -1,6 +1,8 @@
 // menetapkan nyawa
+
 var nyawa = 3;
-lagi = true;
+    habis = 0;  
+    lagi = true;
 
 // menangkap angka random dari comp
 function angkaRandom(min, max) {
@@ -9,34 +11,43 @@ function angkaRandom(min, max) {
   return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 }
 
-var x = angkaRandom
+var x = angkaRandom(1,10);
+console.log(x);
 
-while(lagi == true)
-  while(nyawa >= 1) {
+while(lagi == true) {
+  while(nyawa >= habis) {
     // menangkap value dari player
     var player = prompt("Masukkan Angka diantara 1 sampai 10 :");
 
     // menampilkan clue
     if(player == x) {
-      alert("Jawaban anda benar")
+      alert("Jawaban anda benar");
+      nyawa = habis;
     }
     else if(player < x) {
       alert("Angka anda terlalu kecil");
-      nyawa--
+      nyawa--;
+      alert("Nyawa anda sisa " + nyawa);  
     }
-
     else if(player > x) {
       alert("Angka anda terlalu besar");
-      nyawa--
+      nyawa--;
+      alert("Nyawa anda sisa " + nyawa);
     }
-      
+    else if(player == false) {
+      nyawa = habis;
+    }
 
-  if(nyawa == 0) {
-    lagi = confirm("Lagi?")
+    else {
+      alert("invalid");
     }
-  if(lagi == true) {
-    nyawa + 3
+    
+    if(nyawa == 0) {
+      lagi = confirm("Main lagi?");
+      if(lagi == true) {
+        nyawa + 3;
+      }
     }
+  }
 }
-
-alert("Terimakasih sudah bermain")
+alert("Terimakasih sudah bermain");
