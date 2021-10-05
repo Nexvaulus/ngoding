@@ -27,3 +27,10 @@ function tambah() {
 
 var coba = tambah(1,2,3);
 console.log(coba)
+
+// variabel scope
+// yang ada di dalam kurung kurawal adalah block scope
+// variabel yang ada di dalam function adalah variabel lokal
+// variabel yang diluar function adalah variabel global
+// variabel yang ada di dalam function tidak bisa dipanggil jika sudah dideklarasi di dalam tapi yang diluar bisa
+// variabel yang ada di dalam function bisa dipanggil jika tidak dideklarasi di dalam dan tidak ada deklarasi diluar
