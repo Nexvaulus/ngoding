@@ -1,5 +1,12 @@
 import math
 
-x = math.random()
+# x = math.factorial(y)
 
-print(x)
+
+y = int(input("Masukkan angka : "))
+x = range(y)
+for i in x:
+    print(i+1)
+
+# print("\n")
+# print(f"Faktorial dari {y} adalah {x}")
