@@ -101,21 +101,30 @@ function Angkot(sopir, trayek, penumpang, kas) {
     this.penumpang = penumpang;
     this.kas = kas;
 
-    this.penumpangNaik = function(namaPenumpang) {
-        this.penumpang.push(namaPenumpang);
-        return this.penumpang;
+    this.penumpangNaik = function(namaPenumpang, penumpang) {
+        for(var i = 0; i < penumpang.length; i++) {
+            if(penumpang[i] == undefined) {
+                return penumpang.splice(i, 1, namaPenumpang);
+            }
+            else if(penumpang[i] ==namaPenumpang) {
+                console.log(namaPenumpang + " sudah ada di dalam angkot.");
+                return penumpang
+            }
+        }
     }
 
     this.penumpangTurun = function(namaPenumpang, bayar) {
         if(this.penumpang.length === 0) {
             alert("Angkot masih kosong.");
-            return false;
+            return this.penumpang;
         }
-        for(var i = 0; i < this.penumpang.length; i++) {
-            if(this.penumpang[i] == namaPenumpang) {
-                this.penumpang[i] = undefined;
-                this.kas += bayar;
-                return this.penumpang;
+        else {
+            for(var i = 0; i < this.penumpang.length; i++) {
+                if(this.penumpang[i] == namaPenumpang) {
+                    this.penumpang[i] = undefined;
+                    this.kas += bayar;
+                    return this.penumpang;
+                }
             }
         }
     }
@@ -124,3 +133,5 @@ function Angkot(sopir, trayek, penumpang, kas) {
 var angkot1 = new Angkot("Sandhika Galih", ["Cicaheum", "Cibiru"], [], 0);
 var angkot2 = new Angkot("Tom Cruise", ["Antapani", "Ciroyom"], [], 0);
 
+// Membutuhkan nilai untuk akses loop
+// Nilai didapatkan dari loop
