@@ -1,9 +1,9 @@
-.container {
+/* .container {
     width: 600px;
     border: 1px solid black;
     margin: auto;
     padding: 5px;    
-}
+} */
 
 /* .kotak {
     width: 80px;
@@ -37,7 +37,7 @@
     float: left;
 } */
 
-.kotak {
+/* .kotak {
     width: 80px;
     height: 80px;
     margin: 2px;
@@ -51,7 +51,7 @@
 }
 
 /* bisa juga clear pake tehnik clearfix tinggal search aja di gumgel */
-
+/*
 img {
     float: left;
     margin: 5px;
@@ -59,4 +59,29 @@ img {
 
 .kosong {
     clear:left
+} 
+
+/* Diatas itu latihan float */
+
+div {
+    width: 200px;
+    height: 200px;
 }
+
+.satu {
+    background-color: green;
+}
+
+.dua {
+    background-color: violet;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.tiga {
+    background-color: yellow;
+}
+
+
+
