@@ -7,8 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open halaman1.html",
-            "file": "c:\\Users\\HP\\Desktop\\ngoding\\html\\latihan1\\halaman1.html"
+            "name": "",
+            "file": ""
         }
     ]
 }

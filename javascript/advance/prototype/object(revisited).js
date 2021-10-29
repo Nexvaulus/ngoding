@@ -76,7 +76,7 @@ function siswa(nama, energi) {
 
 siswa.prototype.makan = function(porsi) {
     this.energi += porsi;
-    return `Halo ${this.nama}, selamat makan!`;
+    `Halo ${this.nama}, selamat makan!`;
 }
 
 siswa.prototype.main = function(jam) {
@@ -86,7 +86,7 @@ siswa.prototype.main = function(jam) {
 
 siswa.prototype.tidur = function(jam) {
     this.energi += jam * 2;
-    return `Halo ${this.nama}, selamat tidur`
+    `Halo ${this.nama}, selamat tidur`
 }
 
 let sandhika = new siswa("Sandhika", 10);
@@ -101,7 +101,7 @@ class mahasiswi {
 
     makan(porsi) {
         this.energi += porsi;
-        return `Halo ${this.nama}, selamat makan!`;
+        `Halo ${this.nama}, selamat makan!`;
     }
     
     main(jam) {
@@ -111,9 +111,11 @@ class mahasiswi {
     
     tidur(jam) {
         this.energi += jam * 2;
-        return `Halo ${this.nama}, selamat tidur`
+        `Halo ${this.nama}, selamat tidur`
     }
 }
 
 let mamat = new mahasiswi("Mamat", 10);
 let dody = new mahasiswi("Dody", 10);
+
+console.log(sandhika.energi);
