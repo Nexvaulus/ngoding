@@ -49,9 +49,32 @@
 //     }
 // }
 
-// setInterval(() => {
-//     console.log(this.umur++);
+// const Mahasiswa = function() {
+//     this.nama = "Sandhika";
+//     this.umur = 33;
+//     this.sayHello = function() {
+//         console.log(`Halo, saya ${this.nama} dan saya ${this.umur} tahun`);
+//     }
 
-// }, 500);
+    
+//     setInterval(() => {
+//         console.log(this.umur++);
+//     }, 500);
+// }
 
 // const sandhika = new Mahasiswa();
+
+const box = document.querySelector('.box');
+box.addEventListener('click', function(){
+    let satu = 'size';
+    let dua = 'caption';
+
+    if(this.classList.contains(satu)) {
+        [satu, dua] = [dua, satu];
+    }
+
+    this.classList.toggle(satu);
+    setTimeout(() => {
+        this.classList.toggle(dua);
+    }, 600);
+});
