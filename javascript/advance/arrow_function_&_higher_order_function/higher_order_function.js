@@ -15,7 +15,7 @@
 
 // contoh higher order function filter, map, & reduce
 
-const angka = [-1, 8, 9, 4, 6, 5, 7, -2, 10, 3];
+// const angka = [-1, 8, 9, 4, 6, 5, 7, -2, 10, 3];
 
 // mencari angka >= 3
 
@@ -46,10 +46,24 @@ const angka = [-1, 8, 9, 4, 6, 5, 7, -2, 10, 3];
 // cari angka > 5
 // kalikan 3
 // jumlahkan
-const hasil = angka.filter(a => a > 5) 
-    .map(a => a * 3)
-    .reduce((acc, cur) => acc + cur);
-console.log(hasil);
+// const hasil = angka.filter(a => a > 5) 
+//     .map(a => a * 3)
+//     .reduce((acc, cur) => acc + cur);
+// console.log(hasil);
 
 
+// latihan filter map reduce
 
+// pilih hanya yang 'Javascript lanjutan'
+const ambil = document.querySelector('data-duration')
+console.log(ambil)
+
+// ambil durasi masing masing video
+
+// ubah durasi menjadi integer, ubah menit jadi detik
+
+// jumlahkan semua detik
+
+// ubah formatnya jadi jam menit detik
+
+// simpan di DOM

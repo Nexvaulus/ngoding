@@ -23,3 +23,24 @@
 .caption {
     background-color: black;
 }
+
+.content {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 50px auto;
+    background-color: salmon;
+    transition: .3s width,
+                .3s height .3s,
+                .3s margin-top .3s,
+                1s background-color;
+}
+
+.tes {
+    width: 1000px;
+    height: 500px;
+}
+
+.color {
+    background-color: white;
+}

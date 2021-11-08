@@ -21,7 +21,7 @@
 
 // konsep this pada arrow function
 
-//  constructor function
+// constructor function
 // const Mahasiswa = function() {
 //     this.nama = "Sandhika";
 //     this.umur = 33;
@@ -64,15 +64,30 @@
 
 // const sandhika = new Mahasiswa();
 
-const box = document.querySelector('.box');
-box.addEventListener('click', function(){
-    let satu = 'size';
-    let dua = 'caption';
-    if(this.classList.contains(satu)) {
-        [satu, dua] = [dua, satu];
-    }
-    this.classList.toggle(satu);
-    setTimeout(() => {
-        this.classList.toggle(dua);
-    }, 600);
-});
+// const box = document.querySelector('.box');
+// box.addEventListener('click', function(){
+//     let satu = 'size';
+//     let dua = 'caption';
+//     if(this.classList.contains(satu)) {
+//         [satu, dua] = [dua, satu];
+//     }
+//     this.classList.toggle(satu);
+//     setTimeout(() => {
+//         this.classList.toggle(dua);
+//     }, 600);
+// });
+
+
+// const coba = document.querySelector('.content');
+// coba.addEventListener('click', function() {
+//     let satu = 'tes';
+//     let dua = 'color';
+//     if(this.classList.contains(satu)) {
+//         [satu, dua] = [dua, satu];
+//     }
+//     this.classList.toggle(satu);
+//     setTimeout(() => {
+//         this.classList.toggle(dua);
+//         // console.log(this)
+//     }, 500);
+// });
