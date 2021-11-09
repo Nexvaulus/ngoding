@@ -57,9 +57,11 @@
 // versi class
 
 class Mahasiswa {
-    constructor(nama, energi) {
+    constructor(nama, energi, jurusan, hobi) {
         this.nama = nama;
         this.energi = energi;
+        this.jurusan = jurusan;
+        this.hobi = hobi;
     }
 
     main(jam) {
