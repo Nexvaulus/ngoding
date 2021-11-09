@@ -3,6 +3,35 @@
     padding: 0;
 }
 
+
+
+.seagreen {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    border: 3px groove;
+    margin: 20px auto;
+    transition: .3s width,
+                .3s height .3s,
+                .3s margin-top .3s,
+                2s background-color;
+}
+
+.ukuran {
+    width: 800px;
+    height: 500px;
+}
+
+.salmon {
+    background-color: lightgreen;
+}
+
+.button {
+    width: 10px;
+    height: 10px;
+    background-color: slategray;
+}
+
 .box {
     width: 100px;
     height: 100px;
