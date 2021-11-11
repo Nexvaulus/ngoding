@@ -55,8 +55,7 @@
 // latihan filter map reduce
 
 // pilih hanya yang 'Javascript lanjutan'
-const ambil = document.querySelector('data-duration')
-console.log(ambil)
+
 
 // ambil durasi masing masing video
 
