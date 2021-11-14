@@ -92,15 +92,15 @@
 //     }, 500);
 // });
 
-const warna = document.querySelector('.seagreen');
-warna.addEventListener('click', function() {
-    let satu = 'ukuran';
-    let dua = 'salmon';
-    if(this.classList.contains(satu)) {
-        [satu, dua] = [dua, satu];
-    };
-    this.classList.toggle(satu);
-    setTimeout(() => {
-        this.classList.toggle(dua);
-    }, 1000);
-});
+// const warna = document.querySelector('.seagreen');
+// warna.addEventListener('click', function() {
+//     let satu = 'ukuran';
+//     let dua = 'salmon';
+//     if(this.classList.contains(satu)) {
+//         [satu, dua] = [dua, satu];
+//     };
+//     this.classList.toggle(satu);
+//     setTimeout(() => {
+//         this.classList.toggle(dua);
+//     }, 1000);
+// });

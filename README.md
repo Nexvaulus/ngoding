@@ -1,5 +1,5 @@
 # ngoding
 
-Repo ini dibuat untuk belajar dan latihan mengenai pemrograman dasar sekaligus catatan
+Repo ini adalah timeline pembelajaran bahasa pemrograman sekaligus catatan
 
-Setelah selesai belajar basic dari js dan framework css repo ini akan digunakan sebagai dokumentasi hasil belajar pemrograman dari awal
+Repo ini juga akan digunakan sebagai dokumentasi pertama portfolio

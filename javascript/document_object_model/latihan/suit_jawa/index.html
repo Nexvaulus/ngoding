@@ -11,9 +11,9 @@
     <h1>Suwit Jawa v2.0</h1>
 
     <div class="container">
-      
         <div class="area-computer">
             <img src="img/gajah.png" alt="Gambar Gajah" class="img-computer">
+            <div class="score-computer">Comp : 0</div>
         </div>
         <div class="info"></div>
         <div class="area-player">
@@ -22,8 +22,36 @@
                 <li><img src="img/orang.png" alt="Gambar Orang" class="orang"></li>
                 <li><img src="img/semut.png" alt="Gambar Semut" class="semut"></li>
             </ul>
+            <div class="score-player">Player : 0</div>
         </div>
     </div>
+
+    <br><br>
+
+    <h1>GANTI WARNA BACKGROUND</h1>
+
+    <div class="center">
+        
+        <div class="float">
+            <div class="kotak merah"></div>
+            <input type="range" name="iMerah" min="0" max="255">
+        </div>
+
+        <div class="float">
+            <div class="kotak hijau"></div>
+            <input type="range" name="iHijau" min="0" max="255">
+        </div>
+        
+        <div class="float">
+            <div class="kotak biru"></div>
+            <input type="range" name="iBiru" min="0" max="255">
+        </div>
+
+    </div>
+
+    <br><br>
+
+
     <script src="script.js"></script>
 </body>
 </html>

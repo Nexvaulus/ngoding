@@ -1,23 +1,5 @@
 // suit jawa v2.0
 
-function angkaRandom(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.round(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
-}
-    
-var comp = angkaRandom(1, 10);
-
-if(comp < 2) {
-    comp = "gajah";
-} 
-else if(comp >= 2 && comp < 7) {
-    comp = "semut";
-} 
-else {
-    comp = "orang";
-}
-
 function getPilihanComputer() {
     const comp = Math.floor(Math.random() * (100 - 1) + 1);
     if(comp < 33) return "gajah";
@@ -27,7 +9,7 @@ function getPilihanComputer() {
 
 function getHasil(comp, player) {
     if(player == comp) return "SERI!";
-    if(player == "gajah") return (comp == "orang") ? "MENANG!" : "KALAH!";
+    if(player == "gajah") return (comp == "semut") ? "KALAH!" : "MENANG!";
     if(player == "orang") return (comp == "gajah") ? "KALAH!" : "MENANG!";
     if(player == "semut") return (comp == "orang") ? "KALAH!" : "MENANG!";
 }
@@ -63,49 +45,33 @@ pilihan.forEach(function(i) {
             const info = document.querySelector('.info');
             info.innerHTML = hasil;
         }, 1500);
+
+        const scoreComputer = document.querySelector('.score-computer');
+        const scorePlayer = document.querySelector('.score-player');
+        
+        setTimeout(() => {
+            let x = 0;
+            let y = 0;
+            if(hasil == "MENANG!") {
+                return this.scorePlayer.innerHTML = `Player : ${x++}`;
+            } else if(hasil == "KALAH!") {
+                return this.scoreComputer.innerHTML = `Comp : ${y++}`;
+            };
+            }, 1500);
+        
     });
 });
 
 
-// versi panjang
 
-// const pGajah = document.querySelector('.gajah');
-// pGajah.addEventListener('click', function() {
-//     const pilihanComputer = getPilihanComputer();
-//     const pilihanPlayer = pGajah.className;
-//     const hasil = getHasil(pilihanComputer, pilihanPlayer);
+const center = document.querySelector('.center');
+const iMerah = center.querySelector('input[name=iMerah]');
+const iHijau = center.querySelector('input[name=iHijau]');
+const iBiru = center.querySelector('input[name=iBiru]');
 
-//     const imgComputer = document.querySelector('.img-computer');
-//     imgComputer.setAttribute('src', `img/${pilihanComputer}.png`);
-
-//     const info = document.querySelector('.info');
-//     info.innerHTML = hasil;
-// });
-
-// const pOrang = document.querySelector('.orang');
-// pOrang.addEventListener('click', function () {
-//     const pilihanComputer = getPilihanComputer();
-//     const pilihanPlayer = pOrang.className;
-//     const hasil = getHasil(pilihanComputer, pilihanPlayer);
-
-//     const imgComputer = document.querySelector('.img-computer');
-//     imgComputer.setAttribute('src', `img/${pilihanComputer}.png`);
-
-//     const info = document.querySelector('.info');
-//     info.innerHTML = hasil;
-// });
-
-// const pSemut = document.querySelector('.semut');
-// pSemut.addEventListener('click', function() {
-//     const pilihanComputer = getPilihanComputer();
-//     const pilihanPlayer  = pSemut.className;
-//     const hasil = getHasil(pilihanComputer, pilihanPlayer);
-    
-//     const imgComputer = document.querySelector('.img-computer');
-//     imgComputer.setAttribute('src', `img/${pilihanComputer}.png`);
-
-//     const info = document.querySelector('.info');
-//     info.innerHTML = hasil;
-// });
-
-
+center.addEventListener('input', function() {
+    const r = iMerah.value;
+    const g = iHijau.value;
+    const b = iBiru.value;
+    document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+});
