@@ -29,6 +29,19 @@ function putar() {
     }, 100);
 };
 
+
+const buttonStart = document.querySelector('.button');
+buttonStart.addEventListener('click', function() {
+    const tes = document.querySelector('.tes');
+    alert('tes')
+    tes.toggle('container')
+});
+
+
+
+
+
+
 const pilihan = document.querySelectorAll('li img');
 pilihan.forEach(function(i) {
     i.addEventListener('click', function() {

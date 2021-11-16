@@ -81,7 +81,7 @@ class Mahasiswa {
     }
 }
 
-const sandhika = new Mahasiswa("Sandhika", 10, "Tehnik Informatika", ["Main game", "Ngoding"]);
+// const sandhika = new Mahasiswa("Sandhika", 10, "Tehnik Informatika", ["Main game", "Ngoding"]);
 
 Mahasiswa.prototype.kerja = function(jam) {
     this.energi -= jam;
@@ -89,11 +89,11 @@ Mahasiswa.prototype.kerja = function(jam) {
     return ""
 };
 
-console.log(`
-    energi sekarang = ${sandhika.energi}, kemudian main ${sandhika.main(2)}
-    energi setelah main = ${sandhika.energi}, kemudian makan ${sandhika.makan(1)}
-    energi setelah makan = ${sandhika.energi}, kemudian tidur ${sandhika.tidur(3)}
-    energi setelah tidur = ${sandhika.energi}, kemudian kerja ${sandhika.kerja(4)}
-    energi sekarang = ${sandhika.energi}
-`)
+// console.log(`
+//     energi sekarang = ${sandhika.energi}, kemudian main ${sandhika.main(2)}
+//     energi setelah main = ${sandhika.energi}, kemudian makan ${sandhika.makan(1)}
+//     energi setelah makan = ${sandhika.energi}, kemudian tidur ${sandhika.tidur(3)}
+//     energi setelah tidur = ${sandhika.energi}, kemudian kerja ${sandhika.kerja(4)}
+//     energi sekarang = ${sandhika.energi}
+// `)
 
