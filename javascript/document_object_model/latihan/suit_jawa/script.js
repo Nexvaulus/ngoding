@@ -29,21 +29,10 @@ function putar() {
     }, 100);
 };
 
-
-const buttonStart = document.querySelector('.button');
-buttonStart.addEventListener('click', function() {
-    const tes = document.querySelector('.tes');
-    alert('tes')
-    tes.toggle('container')
-});
-
-
-
-
-
-
 const pilihan = document.querySelectorAll('li img');
 pilihan.forEach(function(i) {
+
+ 
     i.addEventListener('click', function() {
         const pilihanComputer = getPilihanComputer();
         const pilihanPlayer = i.className;
@@ -57,21 +46,19 @@ pilihan.forEach(function(i) {
     
             const info = document.querySelector('.info');
             info.innerHTML = hasil;
-        }, 1500);
-
-        const scoreComputer = document.querySelector('.score-computer');
-        const scorePlayer = document.querySelector('.score-player');
+            
+            const scoreComputer = document.querySelector('.score-computer');
+            const scorePlayer = document.querySelector('.score-player');
         
-        setTimeout(() => {
-            let x = 0;
-            let y = 0;
+            let x = 0
+            let y = 0
             if(hasil == "MENANG!") {
-                return this.scorePlayer.innerHTML = `Player : ${x++}`;
+                return scorePlayer.innerHTML = `Player : ${x++}`;
             } else if(hasil == "KALAH!") {
-                return this.scoreComputer.innerHTML = `Comp : ${y++}`;
-            };
-            }, 1500);
-        
+                    return scoreComputer.innerHTML = `Comp : ${y + 1}`;
+                };
+   
+        }, 1500);
     });
 });
 

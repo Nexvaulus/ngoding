@@ -65,44 +65,44 @@ h1 {
     text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa, 1.5556349186px 1.5556349186px 0 #aaaaaa, 2.3334523779px 2.3334523779px 0 #aaaaaa, 3.1112698372px 3.1112698372px 0 #aaaaaa, 3.8890872965px 3.8890872965px 0 #aaaaaa, 4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa, 6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa, 7.7781745931px 7.7781745931px 0 #aaaaaa;
 }
 
-.container-button {
+/* .container-button {
     width: 600px;
     height: 515px;
     margin: auto;
-}
+} */
 
-.button {
+/* .button {
     /* line-height: 515px; */
-    text-align: center;
+    /* text-align: center;
     width: 140px;
     height: 35px;
     padding-top: 20px;
     background-color: lightskyblue;
-    border-radius: 40px;
+    border-radius: 40px; */
     /* box-sizing: border-box; */
-    position: relative;
+    /* position: relative;
     top: 257px;
     margin: auto;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     color: #e7e7e7;
-}
+}  */
 
-.button:hover {
+/* .button:hover {
     cursor: pointer;
     opacity: 0,8;
-}
+} */
 
 .container {
-    width: 0;
+    width: 600;
     margin: auto;
     padding: 20px;
     position: relative;
     transition: 5.s opacity,
                 3.s width, height,
                 3.s top;
-    opacity: 0
+    /* opacity: 0 */
 }
 
 .tes {

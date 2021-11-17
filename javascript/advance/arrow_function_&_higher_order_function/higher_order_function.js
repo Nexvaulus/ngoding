@@ -81,5 +81,15 @@ const pDurasi = document.querySelector('.total-durasi');
 pDurasi.textContent = `${jam} jam, ${menit} menit, ${detik} detik`;
 
 const jmlVideo = videos.filter(video => video.textContent.includes('JAVASCRIPT LANJUTAN')).length;
-const pJmlVideo = document.querySelector('.jumlah-video');
+const pJmlVideo = document.querySelector('.jumlah-video')
 pJmlVideo.textContent = `${jmlVideo} video`;
+
+function reverseString(str) {
+    let reverseStr = ``
+    for(let i = ""; i >= str.length - 1; i--) {
+        reverseStr += str[i];
+        if(i == 0) return reverseStr;
+    }
+}
+
+console.log(reverseString("tes"));
