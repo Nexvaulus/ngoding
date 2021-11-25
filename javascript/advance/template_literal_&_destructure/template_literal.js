@@ -125,20 +125,20 @@
 
 
 // highlight
-const nama = "Sandhika Galih";
-const umur = 33;
-const email = "sandhikagalih@unpas.ac.id"
+// const nama = "Sandhika Galih";
+// const umur = 33;
+// const email = "sandhikagalih@unpas.ac.id"
 
 
-function highlight(strings, ...values) {
-    return strings.reduce((result, str, i) => `${result}${str}<span class="hl">${values[i] || ``}</span>`, ``);
-};
+// function highlight(strings, ...values) {
+//     return strings.reduce((result, str, i) => `${result}${str}<span class="hl">${values[i] || ``}</span>`, ``);
+// };
 
 
-const str = highlight`Halo, nama saya ${nama}, saya ${umur} tahun, dan email saya adalah ${email}`;
+// const str = highlight`Halo, nama saya ${nama}, saya ${umur} tahun, dan email saya adalah ${email}`;
 
 
-document.body.innerHTML = str
+// document.body.innerHTML = str
 
 
 
