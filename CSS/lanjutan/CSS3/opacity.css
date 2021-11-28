@@ -37,6 +37,7 @@
     
 } */
 
+
 /* border shadow & text shadow */
 
 /* div {
@@ -51,4 +52,13 @@
 div:hover {
     box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, .15);
     margin-top: 40px;
+} */
+
+/* h1 {
+    font-size: 100px;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 1px black;
+
 } */

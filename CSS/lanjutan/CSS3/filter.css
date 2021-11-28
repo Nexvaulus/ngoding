@@ -1,0 +1,22 @@
+/* vendor prefixes */
+/* body {
+    text-align: center;
+}
+
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+} */
+
+
+/* filter */
+/* body {
+    text-align: center;
+}
+
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: blur(20px);
+    filter: brightness(10%);
+} */

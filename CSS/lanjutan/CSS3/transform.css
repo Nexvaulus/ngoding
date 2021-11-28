@@ -1,0 +1,72 @@
+/* transform */
+/* p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto 0;
+    transition: 1s;
+}
+
+.kotak:hover {
+    transform: rotate(100deg) rotateX(100deg) rotateY(100deg);
+} */
+
+/* transition */
+/* .container {
+    margin: 10px auto;
+    border: 5px solid black;
+    width: 905px;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    line-height: 100px;
+    text-align: center;
+    margin: 5px;
+    transition: margin-left 3s ,transform 3s, background-color 2s 3s;
+}
+
+.kotak1 {transition: all 5s ease;}
+.kotak2 {transition: all 5s ease-in;}
+.kotak3 {transition: all 5s ease-out;}
+.kotak4 {transition: all 5s ease-in-out;}
+.kotak5 {transition: all 5s linear;}
+.kotak6 {transition: all 5s cubic-bezier(0, 1.85, 0.79, 0.74);}
+
+.container:hover .kotak {
+    transform: rotate(720deg); 
+    margin-left: 800px;
+    background-color: blue;
+} */
+
+/* animation */
+/* .kotak {
+    width: 200px;
+    height: 200px; 
+    background-color: salmon;
+    animation: animasiKotak 2s ease alternate forwards;
+}
+
+@keyframes animasiKotak {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 100px;
+        height: 400px;
+    }
+
+
+    100% {
+        width: 400px;
+        height: 100px;
+    }
+} */

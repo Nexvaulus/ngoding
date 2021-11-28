@@ -1,0 +1,26 @@
+/* linear gradient */
+/* div {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(to right, red 63%, green 80%)
+} */
+
+
+/* radial gradient */
+/* div {
+    height: 300px;
+    width: 500px;
+    background-image: radial-gradient(circle, green, blue);
+} */
+
+
+/* font face */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+} */
