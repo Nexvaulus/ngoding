@@ -81,13 +81,13 @@ class Mahasiswa {
     }
 }
 
-// const sandhika = new Mahasiswa("Sandhika", 10, "Tehnik Informatika", ["Main game", "Ngoding"]);
-
 Mahasiswa.prototype.kerja = function(jam) {
     this.energi -= jam;
     console.log(`Halo ${this.nama} selamat bekerja!!`);
     return ""
 };
+
+const Sandhika = new Mahasiswa("Sandhika", 10, "Tehnik Informatika", ["Main game", "Ngoding"]);
 
 // console.log(`
 //     energi sekarang = ${sandhika.energi}, kemudian main ${sandhika.main(2)}
