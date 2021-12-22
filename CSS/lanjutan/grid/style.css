@@ -1,0 +1,116 @@
+html body {
+    text-transform: uppercase;
+    color: #edffec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* coba sendiri */
+
+.container-satu {
+    width: 600px;
+    padding: 2px;
+    border: 2px solid #403D39;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container-satu span {
+    margin: auto;
+}
+
+.container-satu .header {
+    display: flex;
+    background-color: #af42ae;
+    height: 50px;
+}
+
+.container-satu .aside, .kolom-satu, .nav, .main, .footer, .content {
+    display: flex;
+}
+
+.container-satu .kolom-satu {
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-satu .aside {
+    background-color: #2191fb;
+    height: 80px;
+}
+
+.container-satu .nav {
+    background-color: #f26430;
+    height: 160px;
+}
+
+.container-satu .main {
+    background-color: #f39237;
+    width: 100%;
+}
+
+.container-satu .footer {
+    background-color: #19323c;
+    height: 70px;
+}
+/* Akhir */
+
+/* Dari Pa Dika */
+
+.container-dua {
+    width: 600px;
+    margin: 50px auto;
+    border: 5px solid #333;
+    box-sizing: border-box;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "nav main"
+    "footer footer"
+    ;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1.2fr 1fr 1.3fr .2fr;
+}
+
+.container-dua header {
+    grid-area: header;
+    background-color: #b063db;
+    padding: 20px 0;
+}
+
+.container-dua aside {
+    grid-area: aside;
+    background-color: #2f93ff;
+    padding: 60px 0;
+}
+
+.container-dua nav {
+    grid-area: nav;
+    background-color: #e45765;
+    padding: 100px 0;
+}
+
+.container-dua main {
+    grid-area: main;
+    background-color: #e0aa77;
+    box-sizing: border-box;
+    padding: 171.5px;
+}
+
+.container-dua footer {
+    grid-area: footer;
+    background-color: #666;
+    padding: 20px 0;
+}
+
+.container-dua header, aside, nav, main, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
