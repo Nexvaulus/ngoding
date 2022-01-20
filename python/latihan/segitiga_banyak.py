@@ -85,8 +85,7 @@ while bar >= 0:
 print (string)
 
 
-x = int(input("Masukkan angka :"))
-bar = x
+bar = int(input("Masukkan angka : "))
 # Looping Baris
 while bar >= 0:
 	# Looping Kolom Spasi Kosong

@@ -6,13 +6,11 @@ html body {
     text-align: center;
 }
 
-
 /* coba sendiri */
-
 .container-satu {
     width: 600px;
     padding: 2px;
-    border: 2px solid #403D39;
+    border: 2px solid #403d39;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -60,7 +58,6 @@ html body {
 /* Akhir */
 
 /* Dari Pa Dika */
-
 .container-dua {
     width: 600px;
     margin: 50px auto;
@@ -68,14 +65,13 @@ html body {
     box-sizing: border-box;
     padding: 5px;
     display: grid;
-    grid-template-areas: 
-    "header header"
-    "aside main"
-    "nav main"
-    "footer footer"
-    ;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "nav main"
+        "footer footer";
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 1.2fr 1fr 1.3fr .2fr;
+    grid-template-rows: 1.2fr 1fr 1.3fr 0.2fr;
 }
 
 .container-dua header {
@@ -114,3 +110,4 @@ html body {
     align-items: center;
     justify-content: center;
 }
+/* Akhir */
