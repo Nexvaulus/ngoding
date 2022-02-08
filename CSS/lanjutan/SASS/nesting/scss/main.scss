@@ -1,0 +1,49 @@
+// reset my css padding and margin
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+    background-color: #f5f5f5;
+    padding: 1em 0 241px 3em;
+    
+    &-heading {
+        font-size: 2em;
+        margin: 2em 0 1em 0;
+    }
+
+    &-paragraph {
+        font-size: 1em;
+        width: 40%;
+    }
+    
+}
+
+.footer {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+    text-align: center;
+
+    &-heading {
+        margin: 1.5em 0 1em 0;
+        cursor: default;
+    }
+
+    &-paragraph {
+        display: flex;
+        gap: 1em;
+        justify-content: center;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+
+    &-paragraph > p:hover {
+        color: rgba(255, 255, 255, .8);
+    }
+
+    
+}
+
+

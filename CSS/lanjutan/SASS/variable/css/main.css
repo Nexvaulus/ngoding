@@ -1,0 +1,35 @@
+body {
+  background-color: #1d1d1d;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  color: #e5e5e5;
+  margin-top: 4em;
+}
+
+.container .heading {
+  font-size: 1.8em;
+  margin-top: 200px;
+}
+
+.container .information {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 270px;
+}
+
+.container footer {
+  background-color: #1a1a1a;
+  padding: 1em;
+  font-size: .8em;
+  color: rgba(229, 229, 229, 0.5);
+  cursor: default;
+}
+
+.container:selected {
+  background-color: #1a1a1a;
+}
+/*# sourceMappingURL=main.css.map */

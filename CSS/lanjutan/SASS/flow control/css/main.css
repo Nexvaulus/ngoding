@@ -1,0 +1,78 @@
+.circle-profile {
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.square-profile {
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  width: 100px;
+  height: 100px;
+}
+
+.nav {
+  background-color: #333;
+  color: #fff;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #fa897c;
+}
+
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #fb9286;
+}
+
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #fb9b90;
+}
+
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #fba399;
+}
+
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #fcaca3;
+}
+
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #fcb5ad;
+}
+
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #fcbeb7;
+}
+
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #fdc7c1;
+}
+
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #fdd0cb;
+}
+
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #fdd9d5;
+}
+/*# sourceMappingURL=main.css.map */

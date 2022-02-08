@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-color: #f5f5f5;
+  padding: 1em 0 241px 3em;
+}
+
+.main-heading {
+  font-size: 2em;
+  margin: 2em 0 1em 0;
+}
+
+.main-paragraph {
+  font-size: 1em;
+  width: 40%;
+}
+
+.footer {
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 1em;
+  text-align: center;
+}
+
+.footer-heading {
+  margin: 1.5em 0 1em 0;
+  cursor: default;
+}
+
+.footer-paragraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.footer-paragraph > p:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+/*# sourceMappingURL=main.css.map */

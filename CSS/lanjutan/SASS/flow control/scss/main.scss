@@ -1,0 +1,114 @@
+// if
+@mixin profile-picture($size, $circle: false) {
+    border: 5px solid white;
+    box-shadow: 1px 1px 3px rgba($color: #000000, $alpha: .3);
+    
+  @if $circle {
+    @if $size == 'small' {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    @else if $size == 'medium' {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+    @else if $size == 'large' {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+    @else {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  }
+  @else {
+    @if $size == 'small' {
+      width: 40px;
+      height: 40px;
+    }
+    @else if $size == 'medium' {
+      width: 60px;
+      height: 60px;
+    }
+    @else if $size == 'large' {
+      width: 80px;
+      height: 80px;
+    }
+    @else {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+.circle-profile {
+  @include profile-picture("yoi", true);
+}
+
+.square-profile {
+  @include profile-picture("yoi");
+}
+
+
+// else
+$light-bg: #fafafa;
+$light-text: #666;
+$dark-bg: #333;
+$dark-text: #fff;
+
+@mixin color-mode($light-mode: true) {
+    @if $light-mode {
+        background-color: $light-bg;
+        color: $light-text;
+    } @else {
+        background-color: $dark-bg;
+        color: $dark-text;
+    }
+}
+
+.nav {
+    @include color-mode(false);
+}
+
+
+// for
+$color: salmon;
+
+// .gradient {
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+
+//     @for $i from 1 through 11 {
+//         li:nth-child(#{$i}) {
+//             padding: 4px;
+//             background-color: lighten($color, $amount: $i * 2%);
+//         }
+//     }
+
+// }
+
+
+// while
+.gradient {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    $i: 1;
+    
+    @while $i < 11 {
+        li:nth-child(#{$i}) {
+            padding: 4px;
+            background-color: lighten($color, $amount: $i * 2%);
+        }
+        $i: $i + 1;
+    }
+}
+
+
+// each 
+// 

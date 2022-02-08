@@ -1,0 +1,49 @@
+// modules
+@use 'mixin';
+
+.container {
+    @include mixin.flex-box(center, space-around);
+    width: 600px;
+    height: 400px;
+    background-color: #eaeaea;
+
+    .box {
+        width: 60px;
+        height: 60px;
+        background-color: lightgreen;
+        text-align: center;
+        line-height: 60px;
+    }
+}
+
+.header {
+    
+    ul {
+        @include mixin.inline-list;
+
+        li {
+            background-color: black;
+            padding: .7em;
+            
+            a {
+                color: white;
+            }
+        }
+    }
+}
+
+.footer {
+
+    ul {
+        @include mixin.inline-list;
+
+        li {
+            background-color: salmon;
+            padding: .4em;
+            
+            a {
+                color: green;
+            }
+        }
+    }
+}

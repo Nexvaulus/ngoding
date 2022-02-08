@@ -1,0 +1,64 @@
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header ul li {
+  display: inline-block;
+}
+
+.header ul li {
+  background-color: black;
+  padding: .7em;
+}
+
+.header ul li a {
+  color: white;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer ul li {
+  background-color: salmon;
+  padding: .4em;
+}
+
+.footer ul li a {
+  color: green;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  width: 600px;
+  height: 400px;
+  background-color: #eaeaea;
+}
+
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 60px;
+}
+/*# sourceMappingURL=main.css.map */

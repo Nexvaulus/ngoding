@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: center;
+  width: 600px;
+  height: 400px;
+  background-color: #eaeaea;
+}
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 60px;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li {
+  background-color: black;
+  padding: 0.7em;
+}
+.header ul li a {
+  color: white;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  display: inline-block;
+}
+.footer ul li {
+  background-color: salmon;
+  padding: 0.4em;
+}
+.footer ul li a {
+  color: green;
+}
+
+/*# sourceMappingURL=main.css.map */
